@@ -143,7 +143,7 @@ function Newsletter() {
 
 interface Role {
   company: string
-  title: string
+  title: string | React.ReactNode
   logo: ImageProps['src']
   start: string | { label: string; dateTime: string }
   end: string | { label: string; dateTime: string }
