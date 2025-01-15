@@ -7,9 +7,9 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Spencer Sharp',
+    template: '%s - Oriol Mirosa',
     default:
-      'Spencer Sharp - Software designer, founder, and amateur astronaut',
+      'Oriol Mirosa - Data Leader',
   },
   description:
     'I’m Oriol, a data professional based in Atlanta. I’m the Director of Data Solutions and Data Governance Lead at Brooklyn Data Co.',
