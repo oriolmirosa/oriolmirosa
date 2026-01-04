@@ -55,6 +55,13 @@ export default function Speaking() {
       <div className="space-y-20">
         <SpeakingSection title="Data">
           <Appearance
+            href="https://aicouncil.com/talks25/data-governance-is-not-the-governance-of-data/"
+            title="Data Governance Is NOT the Governance of Data!"
+            description="The term 'data governance' is misleading. It implies that we’re governing data itself, when in reality, what we’re governing are the relationships between people, mediated by data. This talk reframes data governance as a human-centered practice that aligns roles, responsibilities, and trust across teams to enable better decision-making and collaboration."
+            event="Data Council 2025"
+            cta="Watch video"
+          />
+          <Appearance
             href="https://dataleadersforum.heysummit.com/talks/breaking-the-mould-rethinking-governance-for-the-future/"
             title="Breaking the mold: Rethinking governance for the future"
             description="This panel explores the cutting-edge future of data governance, with a focus on AI, data contracts, and innovative tools like data quality scores."
