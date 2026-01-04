@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation'
 import { AppContext } from '@/app/providers'
 import { Container } from '@/components/Container'
 import { Prose } from '@/components/Prose'
+import { TagPill } from '@/components/TagPill'
 import { type ArticleWithSlug } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -58,6 +59,13 @@ export function ArticleLayout({
                 <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />
                 <span className="ml-3">{formatDate(article.date)}</span>
               </time>
+              {article.tags && article.tags.length > 0 && (
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {article.tags.map((tag) => (
+                    <TagPill key={tag} tag={tag} href={`/blog?tag=${tag}`} />
+                  ))}
+                </div>
+              )}
             </header>
             <Prose className="mt-8" data-mdx-content>
               {children}
