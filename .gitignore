@@ -4,7 +4,8 @@ dist
 logs
 public
 .cache
-.vscode
+.vscode/*
+!.vscode/settings.json
 .DS_Store
 .idea
 .next
