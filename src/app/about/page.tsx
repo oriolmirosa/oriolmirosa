@@ -9,7 +9,7 @@ import {
   GitHubIcon,
   // InstagramIcon,
   LinkedInIcon,
-  XIcon,
+  // XIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
