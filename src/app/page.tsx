@@ -190,7 +190,7 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'Brooklyn Data Co. / Velir',
-      title: 'Director, Data Solutions',
+      title: 'VP, Data Strategy',
       logo: logoBrooklyndata,
       start: '2021',
       end: {

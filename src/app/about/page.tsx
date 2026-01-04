@@ -84,14 +84,15 @@ export default function About() {
               world.
             </p>
             <p>
-              Transitioning to the tech industry, I’ve spent the past several
-              years helping companies unlock the full potential of their data.
-              As a Director at Brooklyn Data Co., I’ve led teams in delivering
-              data strategies and solutions for clients ranging from e-commerce
-              innovators to enterprise SaaS companies. Whether it’s creating
-              data governance frameworks, building scalable infrastructure, or
-              delivering actionable insights, my work has always been about
-              enabling organizations to turn their data into a strategic asset.
+              Transitioning to the tech industry, I’ve spent the last decade
+              helping companies unlock the full potential of their data.
+              As a VP of Data Strategy at Brooklyn Data Co., I’ve led teams in
+              delivering data strategies and solutions for clients ranging from
+              e-commerce innovators to enterprise SaaS companies. Whether it’s
+              creating data governance frameworks, building scalable
+              infrastructure, or delivering actionable insights, my work has
+              always been about enabling organizations to turn their data into
+              a strategic asset.
             </p>
             <p>
               Outside of work, I’m deeply curious about the intersection of
@@ -127,11 +128,11 @@ export default function About() {
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:oriol@oriol.codes"
+              href="mailto:oriol@oriolmirosa.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              oriol@oriol.codes
+              oriol@oriolmirosa.com
             </SocialLink>
           </ul>
         </div>
